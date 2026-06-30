@@ -1,6 +1,6 @@
 # tgfire
 
-Tiny **fire-and-forget** Telegram notifier for app alerts. Zero dependencies, ~1 KB, works in Node 18+, Bun and Deno (uses native `fetch`).
+Tiny **fire-and-forget** Telegram notifier for app alerts. Zero dependencies, ~3 kB packed (1.8 kB of code), works in Node 18+, Bun and Deno (uses native `fetch`).
 
 ```bash
 bun add tgfire
