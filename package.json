@@ -1,0 +1,47 @@
+{
+  "name": "tgfire",
+  "version": "0.1.0",
+  "description": "Tiny fire-and-forget Telegram notifier for app alerts. Zero dependencies.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "telegram",
+    "notify",
+    "notification",
+    "alert",
+    "bot",
+    "fire-and-forget",
+    "tiny"
+  ],
+  "author": "agusgarcia3007",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusgarcia3007/tgfire.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agusgarcia3007/tgfire/issues"
+  },
+  "homepage": "https://github.com/agusgarcia3007/tgfire#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
